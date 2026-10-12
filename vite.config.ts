@@ -51,10 +51,10 @@
     },
     build: {
       target: 'esnext',
-      outDir: 'build',
+      outDir: 'dist',
     },
     server: {
       port: 3000,
-      open: true,
+      open: false,
     },
   });
